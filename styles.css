@@ -35,7 +35,7 @@ header{
 }
 
 .banderogus-tytle{
-    font-weight: 600;
+        font-weight: 600;
         font-size: 64px;
         line-height: 72px;
         color: #303939;
@@ -48,7 +48,7 @@ header{
 }
 
 .banderogus-greeting{
-    font-weight: 600;
+        font-weight: 600;
         font-size: 16px;
         line-height: 24px;
         color: #303939;
@@ -56,7 +56,7 @@ header{
 }
 
 .banderogus-start-text{
-    font-weight: 600;
+        font-weight: 600;
         font-size: 24px;
         line-height: 24px;
         color: #FF6B0A;
@@ -64,7 +64,7 @@ header{
 }
 
 .banderogus-descr{
-    font-weight: 400;
+        font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         color: #303939;
@@ -73,7 +73,7 @@ header{
 }
 
 .banderogus-launch{
-    font-weight: 400;
+        font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         color: #FFFFFF;
