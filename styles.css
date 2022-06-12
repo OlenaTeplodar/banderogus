@@ -97,3 +97,57 @@ header{
 .banderogus-image{
     align-self: flex-end;
 }
+
+.facts{
+    padding: 32px 0 72px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facts-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: #303939;
+    margin: 16px auto;
+}
+
+.facts-title-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #303939;
+    width: 875px;
+}
+
+.facts-list{
+    display: flex;
+    flex-direction: row;
+    width: 1170px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.fact-head{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #303939;
+        margin: 12px 0 32px 20px;
+}
+
+.fact-text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #303939;
+        width: 280px;
+}
+
+li{
+    width: 30%;
+}
