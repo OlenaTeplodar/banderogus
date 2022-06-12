@@ -34,7 +34,7 @@
 
     <main>
         <section class="facts">
-            <img class="gerb" src="./img/trezub.svg" alt="Тризуб">
+            <img src="./img/trezub.svg" alt="Тризуб">
             <h2 class="facts-title">Цікаві факти про бандерогусей</h2>
             <p class="facts-title-text">Зазвичай бандерогуси — виключно мирні птахи. Але у разі небезпеки можуть атакувати ворога системою надпотужного
             озброєння. Також нищать психологічно, активуючи високочастотне шипіння та розмахування крилами</p>
@@ -59,11 +59,49 @@
         
     </main>
 
-    <footer>
-        <img class="gerb" src="./img/trezub.svg" alt="Тризуб">
-        <h2 class="footer-title">Перемога завжди за нами!</h2>
-        <p class="footer-text">Головна мета бандерогусей — служити гумору та доброті нашого народу. Ми забезпечимо вашу посмішку у часи, коли вона так
-        необхідна</p>
+    <footer class="viktory-footer">
+        <div class="footer-bgd">
+            <img src="./img/trezub.svg" alt="Тризуб">
+            <h2 class="footer-title">Перемога завжди за нами!</h2>
+            <p class="footer-text">Головна мета бандерогусей — служити гумору та доброті нашого народу. Ми забезпечимо вашу посмішку у часи, коли вона так
+            необхідна</p>
+        </div>
     </footer>
+
+    <div class="modal-bgd">
+
+        <form class="modal-form" action="#">
+            <button class="button-close">X</button>
+            <img src="./img/trezub.svg" alt="Тризуб">
+            <h4 class="modal-form-title">Поділися, будь ласка, поштою</h4>
+            <p class="modal-form-descr">та запиши гуся до бандерозагону</p>
+
+            <div class="modal-form-field">
+                <label for="user-name" class="modal-form-label">Ім’я</label>
+                <input type="text" class="modal-form-input" id="user-name">
+            </div>
+            
+            <div class="modal-form-field">
+                <label for="user-email" class="modal-form-label">Email</label>
+                <input type="email" class="modal-form-input" id="user-email">
+            </div>
+            
+            <button class="banderogus-launch">Запустити гуся</button>
+        </form>
+
+    </div>
+
+        <div class="modal-bgd modal-active">
+        
+            <div class="modal-form">
+                <button class="button-close">X</button>
+                <img src="./img/trezub.svg" alt="Тризуб">
+                <h4 class="modal-close">Дякуємо, гусь успішно запущений</h4>
+                <h5 class="modal-close-text">Слава Україні! <br> Героям Слава!</h5>
+        
+                
+                </div>
+        
+        </div>
 </body>
 </html>

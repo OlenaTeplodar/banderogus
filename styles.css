@@ -151,3 +151,140 @@ header{
 li{
     width: 30%;
 }
+
+.viktory-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+}
+.footer-bgd{
+        width: 1170px;
+        padding: 42px 0 72px 0;
+        background: linear-gradient(270deg, #C1E5FA 0%, #E9F6FC 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 82px;
+        text-align: center;
+}
+
+.footer-title{
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 100px;
+        color: #303939;
+}
+
+.footer-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        
+        color: #303939;
+        width: 968px;
+}
+
+.modal-bgd{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(48 57 57 / 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-form{
+    background-color: #FCFEFF;
+    padding: 32px 92px 60px 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+
+.modal-form-title{
+    font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        color: #000;
+        margin: 32px 0 12px 0;
+}
+
+.modal-form-descr{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000;
+        margin-bottom: 24px;
+}
+
+.modal-form-field{
+    width: 100%;
+    display: flex;
+        flex-direction: column;
+        margin-bottom: 16px;
+}
+
+.modal-form-label{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        margin-bottom: 8px;
+}
+
+.modal-form-input{
+        height: 48px;
+        background: #FFFBFB;
+        border: 1px solid #005BBB;
+        border-radius: 8px;
+        font-size: 16px;
+            line-height: 24px;
+            color: #000;
+            padding: 4px 8px;
+}
+
+.button-close{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    color: #303939;
+    font-size: 14px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.modal-close{
+    font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 68px 24px;
+        color: #000000;
+}
+
+.modal-close-text{
+    font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #005BBB;
+}
+
+.modal-active{
+    opacity: 1;
+    pointer-events: all;
+}
