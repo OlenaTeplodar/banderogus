@@ -40,19 +40,6 @@ function clearFormFields() {
     });
 }
 
-function showGooseAnim() {
-    const targetContainer = document.querySelector('.modal-form');
-    const gusImage = document.createElement('img');
-    gusImage.setAttribute('src', './img/gus-anim.gif');
-    gusImage.classList.add('gus-anim');
-
-    targetContainer.appendChild(gusImage);
-
-    setTimeout(2000, () => {
-        targetContainer.removeChild(gusImage);
-    })
-}
-
 
 form.addEventListener('submit', e => {
     e.preventDefault();
@@ -64,14 +51,10 @@ form.addEventListener('submit', e => {
       body: new URLSearchParams(formData).toString(),
     })
       .then(() => {
-        showGooseAnim();
-
-        setTimeout(() => {
-            closeFormModal();
-            setTimeout(openSuccessModal, 700);
-            setTimeout(closeSuccessModal, 4000);
-            clearFormFields();
-        }, 4000);
+        closeFormModal();
+        setTimeout(openSuccessModal, 700);
+        setTimeout(closeSuccessModal, 3000);
+        clearFormFields();
       })
       .catch((error) => console.log('Sending form failed'));
 })
